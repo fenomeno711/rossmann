@@ -9,23 +9,17 @@ rawdata['Month'] = rawdata['Date'].apply(pre.convert2month)
 rawdata['Year'] = rawdata['Date'].apply(pre.convert2year)
 rawdata['Timestamp'] = rawdata['Date'].apply(pre.convert2timestamp)
 
-rawdata.drop(columns='Date')
-
-#Transformation of Weekday
-weekdays = pd.get_dummies(rawdata['DayOfWeek'])
-rawdata.join(weekdays)
-
-rawdata.drop(columns = ['DayOfWeek'])
-
-#Transformation of StateHoliday
-
+rawdata = rawdata.drop(columns='Date')
 
 #Merging with store_data
-stores = pd_read_csv('data/store.csv')
+stores = pd.read_csv('data/store.csv')
 
 #...insert preprocessing for stores here (missing values etc.)
 
-rawdata.merge(stores, on='Store')
+rawdata = rawdata.merge(stores, on='Store')
+
+#Transformation of categorial variables
+rawdata = pd.get_dummies(rawdata, columns=['DayOfWeek', 'StateHoliday', 'StoreType', 'Assortment'])
 
 #Export to csv
 rawdata.to_csv('data/preprocessed_data.csv')
