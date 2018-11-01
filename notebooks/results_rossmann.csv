@@ -1,16 +1,16 @@
 Model,FitTime,PredictionTime,MSE,RMSE,R2,RMSEofMean,Calibration
 "KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-          weights='uniform')",2.728647232055664,3.765230894088745,8128374.577187,2851.0304412943397,0.458743699657671,0.4937908100818332,0.9986298423775852
+          weights='uniform')",2.728647232055664,3.765230894088745,8128374.577187,2851.03044129434,0.458743699657671,0.4937908100818332,0.9986298423775852
 "KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-          weights='uniform')",2.647608995437622,3.7093558311462402,8128374.577187,2851.03044129434,0.458743699657671,0.4937908100818332,0.9986298423775852
+          weights='uniform')",2.647608995437622,3.70935583114624,8128374.577187,2851.0304412943397,0.458743699657671,0.4937908100818332,0.9986298423775852
 "KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-          weights='uniform')",2.6952478885650635,4.52933406829834,8128374.577187,2851.0304412943397,0.458743699657671,0.4937908100818332,0.9986298423775852
+          weights='uniform')",2.6952478885650635,4.52933406829834,8128374.577187,2851.03044129434,0.458743699657671,0.4937908100818332,0.9986298423775852
 "KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-          weights='uniform')",2.6278347969055176,3.705242156982422,8128374.577187,2851.03044129434,0.458743699657671,0.4937908100818332,0.9986298423775852
+          weights='uniform')",2.6278347969055176,3.705242156982422,8128374.577187,2851.0304412943397,0.458743699657671,0.4937908100818332,0.9986298423775852
 "LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
          normalize=False)",0.5971090793609619,0.03512763977050781,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
 "RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
@@ -18,4 +18,134 @@ Model,FitTime,PredictionTime,MSE,RMSE,R2,RMSEofMean,Calibration
            min_impurity_decrease=0.0, min_impurity_split=None,
            min_samples_leaf=1, min_samples_split=2,
            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
-           oob_score=False, random_state=None, verbose=0, warm_start=False)",35.85607385635376,0.8926351070404053,796535.7966584229,892.4885414717787,0.9469598731830626,0.1545766167554594,0.9998332014609121
+           oob_score=False, random_state=None, verbose=0, warm_start=False)",35.85607385635376,0.8926351070404053,796535.7966584229,892.4885414717787,0.9469598731830626,0.1545766167554594,0.999833201460912
+"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=None, splitter='best')",5.305280923843384,0.1360337734222412,1332096.8017997765,1154.1649803211744,0.9112976672281364,0.19989827268983468,0.9998569868617159
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.5988941192626953,0.05375409126281738,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.6130928993225098,0.11030316352844237,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.7080140113830566,0.03240489959716797,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.5869770050048828,0.046961069107055664,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",2.3068017959594727,3.706261157989502,8128374.577187,2851.0304412943397,0.458743699657671,0.4937908100818332,0.9986298423775852
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.40088820457458496,0.016498088836669922,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",2.3037898540496826,3.759555101394653,8128374.577187,2851.0304412943397,0.458743699657671,0.4937908100818332,0.9986298423775852
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",2.343390941619873,3.818229913711548,8128374.577187,2851.03044129434,0.458743699657671,0.4937908100818332,0.9986298423775852
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.3898649215698242,0.01866698265075684,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",2.394542932510376,3.8478541374206543,8128374.577187,2851.03044129434,0.458743699657671,0.4937908100818332,0.9986298423775852
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.37860918045043945,0.017184019088745117,6368380.2624864485,2523.5649907395787,0.5759390875365626,0.4370746741328119,1.0004204024975591
+"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=None, splitter='best')",5.215072870254517,0.1467430591583252,1334009.057031349,1154.9930982613487,0.911170333013636,0.20004170049144607,1.0000479366340778
+"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)",34.694710969924934,0.8847939968109131,788359.0998352414,887.8958834431216,0.9475043471894596,0.15378118072799632,1.000221468227922
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",4.236106872558594,7.090921878814697,7927577.356175744,2815.5953821839785,0.4634751567746015,0.4879957187082247,0.9978769221743904
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.8515770435333252,0.03513908386230469,6329223.229771593,2515.794751121719,0.5716490235889824,0.4360346218296936,1.0008722143624664
+"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=None, splitter='best')",8.963043928146364,0.20233702659606934,1446895.0463934757,1202.8695051390553,0.9020766240363312,0.20847994437937464,0.9999046321450304
+"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)",62.47232604026794,1.528294801712036,870802.7816570783,933.1681422214748,0.9410655607737664,0.16173561766739378,1.0005006795688065
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",4.375814914703368,6.462485074996947,7927577.356175744,2815.5953821839785,0.4634751567746015,0.4879957187082247,0.9978769221743904
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.8259501457214355,0.03972601890563965,6329223.229771593,2515.794751121719,0.5716490235889824,0.4360346218296936,1.0008722143624664
+"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=None, splitter='best')",9.467990159988405,0.17949175834655762,1436773.6401025546,1198.6549295366679,0.9027616234604272,0.20774947903511706,0.9996168254001544
+"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)",61.2254900932312,1.4427649974822998,881467.724945675,938.865126067464,0.94034377569759,0.162723012285237,1.000527128679202
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",4.494457006454468,8.612765073776245,7927577.356175744,2815.5953821839785,0.4634751567746015,0.4879957187082247,0.9978769221743904
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",1.510591983795166,0.05269885063171387,6329223.229771593,2515.794751121719,0.5716490235889824,0.4360346218296936,1.0008722143624664
+"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=None, splitter='best')",9.966336011886595,0.2352700233459473,1447027.3459573817,1202.924497197302,0.9020676702286804,0.2084894755389856,0.9997534287483332
+"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)",61.58428406715393,2.0834619998931885,879011.8416533428,937.5563138571159,0.9405099856680764,0.16249617047434176,1.0003004840879106
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",5.447350978851318,7.8638341426849365,7927577.356175744,2815.5953821839785,0.4634751567746015,0.4879957187082247,0.9978769221743904
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",4.150886058807373,6.46752405166626,7927577.356175744,2815.5953821839785,0.4634751567746015,0.4879957187082247,0.9978769221743904
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.753615140914917,0.04011273384094238,6329223.229771593,2515.794751121719,0.5716490235889824,0.4360346218296936,1.0008722143624664
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",4.373161792755127,6.895904064178468,7927577.356175744,2815.5953821839785,0.4634751567746015,0.4879957187082247,0.9978769221743904
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.7364659309387207,0.04036402702331543,6329223.229771593,2515.794751121719,0.5716490235889824,0.4360346218296936,1.0008722143624664
+"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=None, splitter='best')",9.043435096740724,0.18207311630249026,1443373.8757977688,1201.4049591198502,0.90231493082502,0.2082261109657579,0.999728161163664
+"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)",60.47979593276978,1.2465159893035889,871091.9367992905,933.3230613240468,0.9410459912495128,0.161762468066169,1.0001923117818374
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')",4.293544054031372,6.666090965270996,7927577.356175744,2815.5953821839785,0.4634751567746015,0.4879957187082247,0.9978769221743904
+"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",0.7388019561767578,0.0603780746459961,6329223.229771593,2515.794751121719,0.5716490235889824,0.4360346218296936,1.0008722143624664
+"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=None, splitter='best')",8.648145198822021,0.18546295166015625,1440705.5565408194,1200.2939458902638,0.9024955180973592,0.20803355144428085,0.9997753267764772
+"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)",59.049676179885864,1.4825348854064941,869033.50704219,932.2196667321442,0.9411853022461895,0.16157122899811915,1.000087175075433

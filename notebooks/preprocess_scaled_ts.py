@@ -43,4 +43,4 @@ rawdata = rawdata[(rawdata['Open'] != 0)]
 rawdata = rawdata[(rawdata['Sales'] != 0)]
 
 #Export to csv
-rawdata.to_csv('data/preprocessed_data.csv', index=False)
+rawdata.to_csv('data/preprocessed_data_scaled_ts.csv', index=False)
